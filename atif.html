@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="pngwing.com.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="player.css">
+    <link rel="stylesheet" href="media.css">
+    <title>music hub</title>
+</head>
+<body>
+    <header>
+        <div class="manuside">
+           
+                <img class="logo" src="pngwing.com.png" alt="Logo" >
+           
+            <h1 style="text-align: center; 
+            font-size: 26px;
+            padding-top: 10px;">Music Hub</h1>
+            <h6 id="manulist"><i class="bi bi-music-note-list"></i></h6>
+            <h2><i class="bi bi-music-note-list"></i>Manu</h2>
+            <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+            <h4><span></span><i class="bi bi-music-note-beamed"></i>Last listening</h4>
+            <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+            <div class="manusongs">
+                <li class="songitem">
+                    <span>01</span>
+                    <img class="img" src="images/atifaslam/1.jpg" alt="">
+                    <h5>on my way <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songitem">
+                    <span>02</span>
+                    <img class="img" src="images/atifaslam/2.jpg" alt="">
+                    <h5>dark side <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songitem">
+                    <span>03</span>
+                    <img class="img" src="images/atifaslam/3.jpg" alt="">
+                    <h5>on my way <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songitem">
+                    <span>04</span>
+                    <img class="img" src="images/atifaslam/4.jpg" alt="">
+                    <h5>dark side <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songitem">
+                    <span>05</span>
+                    <img class="img" src="images/1.jpg" alt="">
+                    <h5>on my way <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songitem">
+                    <span>06</span>
+                    <img class="img" src="images/2.jpg" alt="">
+                    <h5>dark side <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="songitem">
+                    <span>07</span>
+                    <img class="img" src="images/1.jpg" alt="">
+                    <h5>on my way <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="7"></i>
+                </li>
+                <li class="songitem">
+                    <span>08</span>
+                    <img class="img" src="images/2.jpg" alt="">
+                    <h5>dark side <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="8"></i>
+                </li>
+                <li class="songitem">
+                    <span>09</span>
+                    <img class="img" src="images/2.jpg" alt="">
+                    <h5>dark side <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="8"></i>
+                </li>
+                <li class="songitem">
+                    <span>10</span>
+                    <img class="img" src="images/2.jpg" alt="">
+                    <h5>dark side <br> <div class="subtitle">
+                        Alan walker
+                    </div></h5>
+                    <i class="bi Playlistplay bi-play-circle-fill" id="8"></i>
+                </li>
+            </div>
+        </div>
+        
+
+
+
+
+                       <!-- play area -->
+
+
+
+
+
+        <div class="songside">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" name="" id="" placeholder="Search  Music.....">
+                    <div class="searchresults"></div>
+                        <!-- <a href="" class="card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="contant">ON MY WAY 
+                                <div class="subtitle">Alan Walker</div>
+                            </div>
+                        </a> -->
+                        
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/nav.jpg" alt="">
+                </div>
+
+            </nav>
+            <div class="content">
+                <div class="text">
+                <h1 style="color:rgb(73, 223, 110)" id="titlenav">Jab Koi Baat - <br>
+                    <div class="subtitle">
+                    Atif Aslam
+                    </div></h1>
+                <p>"Unlock the rhythm of your life<br>your music, your way, all in one place!" </p>
+                    <div class="button">
+                        <button id="playbutton">Play</button>
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <img src="images/atifaslam/atif.jpg" alt="" id="posternav">
+            </div>
+            <div class="popularsongs">
+                <div class="h4">
+                    <h4 style="color: antiquewhite;
+                    font-size: 14px;
+                    font-weight: 400;">Poppular Songs</h4>
+                    <div class="btn">
+                        <i class="bi bi-arrow-left-short" id="pop_songs_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_songs_right"></i>
+                    </div>
+                </div>
+                <div class="popsongs">
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/3.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="11"></i>
+                        </div>
+                            <h5 style="margin-left: 14px;">dark side <br>
+                                <div class="subtitle">
+                            Alan walker
+                                </div>
+                            </h5> 
+                    </li>
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="12"></i>
+                        </div>
+                            <h5 style="margin-left: 14px;">dark side <br>
+                                <div class="subtitle">
+                            Alan walker
+                                </div>
+                            </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="13"></i>
+                        </div>
+                             <h5 style="margin-left: 14px;">dark side <br>
+                                <div class="subtitle">
+                             Alan walker
+                            </div>
+                             </h5>
+                    </li>
+            
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="14"></i>
+                        </div>
+                            <h5 style="margin-left: 14px;">dark side <br>
+                                <div class="subtitle">
+                                Alan walker
+                                </div>
+                            </h5>  
+                    </li>
+                    <li class="songitem">
+                            <div class="imgplay">
+                                <img class="img" src="images/2.jpg" alt="">
+                                <i class="bi Playlistplay bi-play-circle-fill" id="15"></i>
+                            </div>
+                            <h5 style="margin-left: 14px;">dark side <br>
+                                <div class="subtitle">
+                                Alan walker
+                                </div>
+                            </h5>
+                    </li>
+                    <li class="songitem">
+                            <div class="imgplay">
+                                <img class="img" src="images/2.jpg" alt="">
+                                <i class="bi Playlistplay bi-play-circle-fill" id="16"></i>
+                            </div>
+                            <h5 style="margin-left: 14px;">dark side <br>
+                                <div class="subtitle">
+                                Alan walker
+                                </div>
+                            </h5>
+                    </li>
+                    <li class="songitem">
+                            <div class="imgplay">
+                                <img class="img" src="images/2.jpg" alt="">
+                                <i class="bi Playlistplay bi-play-circle-fill" id="17"></i>
+                            </div>
+                            <h5 style="margin-left: 14px;">dark side <br>
+                                <div class="subtitle">
+                                Alan walker
+                                </div>
+                            </h5> 
+                    </li>
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="18"></i>
+                        </div>
+                        <h5 style="margin-left: 14px;">dark side <br>
+                            <div class="subtitle">
+                            Alan walker
+                            </div>
+                        </h5> 
+                    </li>
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="19"></i>
+                        </div>
+                        <h5 style="margin-left: 14px;">dark side <br>
+                            <div class="subtitle">
+                            Alan walker
+                            </div>
+                        </h5> 
+                    </li>
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="20"></i>
+                        </div>
+                        <h5 style="margin-left: 14px;">dark side <br>
+                            <div class="subtitle">
+                            Alan walker
+                            </div>
+                        </h5> 
+                    </li>
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="21"></i>
+                        </div>
+                        <h5 style="margin-left: 14px;">dark side <br>
+                            <div class="subtitle">
+                            Alan walker
+                            </div>
+                        </h5> 
+                    </li>
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="22"></i>
+                        </div>
+                        <h5 style="margin-left: 14px;">dark side <br>
+                            <div class="subtitle">
+                            Alan walker
+                            </div>
+                        </h5> 
+                    </li>
+                    <li class="songitem">
+                        <div class="imgplay">
+                            <img class="img" src="images/2.jpg" alt="">
+                            <i class="bi Playlistplay bi-play-circle-fill" id="23"></i>
+                        </div>
+                        <h5 style="margin-left: 14px;">dark side <br>
+                            <div class="subtitle">
+                            Alan walker
+                            </div>
+                        </h5> 
+                    </li>
+                </div>
+            </div>
+            <div class="popularartist">
+                <div class="h4">
+                    <h4 style="color: antiquewhite;
+                    font-size: 14px;
+                    font-weight: 400;">Popular Artists</h4>
+                    <div class="btn">
+                        <i class="bi bi-arrow-left-short" id="pop_artist_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_artist_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                       <img src="images/atif.jpg" alt=""> 
+                       <div class="subtitle">
+                        Atif Aslam
+                        </div>
+                    </li>
+                    <li>
+                        <img   src="images/arjit.jpg" alt=""> 
+                        <div class="subtitle">
+                         Arjit Singh
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/alizafar.jpg" alt=""> 
+                        <div class="subtitle">
+                         Ali Zafar
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/bellieeilish.jpg" alt=""> 
+                        <div class="subtitle">
+                         Bellie Eilish
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/Qurat-ul-Ain_Balouch.jpg" alt=""> 
+                        <div class="subtitle">
+                            Qurat-ul-Ain_Balouch
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/tylorswiftt.jpg" alt=""> 
+                        <div class="subtitle">
+                         Tylor Swift
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/NFAK.jpg" alt=""> 
+                        <div class="subtitle">
+                         Nusrat Fateh Ali Khan
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/madonna.jpg" alt=""> 
+                        <div class="subtitle">
+                         Madonna
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/theweekend.jpg" alt=""> 
+                        <div class="subtitle">
+                         The Weeknd
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/justinbieber.jpg" alt=""> 
+                        <div class="subtitle">
+                         Justin Bieber
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/alizafar.jpg" alt=""> 
+                        <div class="subtitle">
+                         Ali Zafar
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/bellieeilish.jpg" alt=""> 
+                        <div class="subtitle">
+                         Bellie Eilish
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/Qurat-ul-Ain_Balouch.jpg" alt=""> 
+                        <div class="subtitle">
+                            Qurat-ul-Ain_Balouch
+                         </div>
+                     </li>
+                     <li>
+                        <img src="images/tylorswiftt.jpg" alt=""> 
+                        <div class="subtitle">
+                         Tylor Swift
+                         </div>
+                     </li>
+                    
+                     
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <!-- play area -->
+        
+
+
+
+        <div class="play">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+               <img src="images/6.jpg" alt="" id="poster">
+               <h5 id="title">
+                Shikayat
+                <div class="subtitle">AUR</div>
+               </h5> 
+               <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">Next</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="play"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <a href="" id="download" download><i class="bi bi-cloud-arrow-down-fill" id="download"></i></a>
+               </div>
+               <span id="currenttime">0:00</span>
+               <div class="bar">
+                <input type="range" name="" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+               </div>
+               <span id="endtime">00:00</span>
+               <div class="vol">
+                <i class="bi bi-volume-up-fill" id="volicon"></i>
+                <input type="range" name="" id="vol" min="0" max="100">
+                <div class="volbar" id="volbar"></div>
+                <div class="dot" id="dot2"></div>
+               </div>
+        </div>
+        <script src="atif.js"></script>
+    </header>
+</body>
+</html>
